@@ -16,4 +16,3 @@ elif A == B and B == C:
     print('Трикутник рівносторонній')
 elif A == B or B == C or A == C:
     print('Трикутник рівнобедрений')
-
