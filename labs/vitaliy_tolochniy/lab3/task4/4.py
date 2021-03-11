@@ -9,6 +9,6 @@ else:
     k = 1
     product = 1
     while k <= N:
-        product = product * k
-        k = k + 1
+        product *= k
+        k += 1
     print(product)
