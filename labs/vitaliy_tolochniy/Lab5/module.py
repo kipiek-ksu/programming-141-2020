@@ -78,7 +78,7 @@ def SortList(listt, reverse):
             b -= 1
     print(listt)
     if reverse:
-        l2 = []
+        l2 = listt[::-1]
         for i in listt[::-1]:
             l2.append(i)
         return l2
