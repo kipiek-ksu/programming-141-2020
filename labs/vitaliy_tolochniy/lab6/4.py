@@ -12,7 +12,7 @@ def Cos1(x, e):
     n = 2
     skl = x ** 2/2
     while(skl>e):
-        s+=(skl * symbol)
+        s += (skl * symbol)
         symbol *= -1
         skl = skl * (x ** 2/((2 + n) * (1 + n)))
         n += 2
