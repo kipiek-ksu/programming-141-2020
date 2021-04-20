@@ -55,10 +55,3 @@ for i in range(0, len(list1[0])):
 
 for i in list1:
     module.OutputList(i)
-
-
-
-
-
-
-

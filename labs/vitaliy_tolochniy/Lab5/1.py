@@ -56,7 +56,7 @@ while (a != 8):
         if len(listt) == 0:
             print("Вы еще не создали ни одного списка")
         else:
-            reverse = bool(input("Вы хотите, чтобы ваш список был перевернут? Введите 'True' или 'True':"))
+            reverse = bool(input("Вы хотите, чтобы ваш список был перевернут? Введите 'True' или 'False':"))
             listt = module.SortList(listt, reverse)
     elif a == 7:
         if len(listt) == 0:
@@ -67,15 +67,4 @@ while (a != 8):
         print("До новых встреч)")
     else:
         print("Введите корректное число!")
-
-
-
-
-
-
-
-
-
-
-
 

@@ -93,14 +93,3 @@ def Averege(listt):
     for i in listt:
         S += int(i)
     return S / len(listt)
-
-
-
-
-
-
-
-
-
-
-
